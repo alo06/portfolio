@@ -1,0 +1,42 @@
+.about{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    scroll-snap-align: start;
+}
+.about h1{
+    font-family: headings;
+    text-align: left;
+}
+.about-second{
+    padding: 5rem;
+}
+.about-second img{
+  object-fit: cover;
+  height: 30rem;
+  width: 27rem;
+}
+.about-first{
+    padding: 5rem;
+}
+.about p{
+    font-size: 1.3rem;
+}
+
+/* TIMELINE */
+
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-item {
+  margin: 20px;
+  padding: 10px;
+  border-left: 2px solid #ffffff; 
+}
+
+.timeline-content {
+  margin-left: 20px;
+}

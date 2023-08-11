@@ -1,0 +1,47 @@
+.home{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+.home-first{
+    padding: 1.5rem;
+}
+h1{
+    font-family: headings;
+    font-size: 4.5rem;
+}
+.home h2{
+    text-align: center;
+}
+p{
+    font-size: 1.5rem;
+}
+.home-second{
+    padding: 5rem;
+}
+.home-second img{
+    height: 30rem;
+    width: 25rem;
+    filter: grayscale(1);
+}
+.home-second img:hover{
+    filter: grayscale(0);
+}
+.buttons{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    padding: 0.5rem;
+    width: 5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.home h2{
+    font-size: 1.5rem;
+}
