@@ -12,7 +12,7 @@ import mysql from '../src/assets/images/icons/javascript.png'
 import python from '../src/assets/images/icons/javascript.png'
 import oops from '../src/assets/images/icons/oops.png'
 import dsa from '../src/assets/images/icons/dsa.png'
-import alo from '../src/assets/images/alo.jpg'
+import collegeMap from '../src/assets/images/alo.jpg'
 import EzFit from '../src/assets/images/EZfit.jpg'
 import jobify from '../src/assets/images/jobify.jpg'
 import imageEditor from '../src/assets/images/image-editor.jpg'
@@ -24,7 +24,7 @@ export const data = [
   {
     id: 1,
     name: "College Map",
-    image:alo,
+    image:collegeMap,
     details:
       "Experience seamless navigation through NMAMIT Campus using the College Map- Classroom Finder project.",
     tech: "HTML,CSS,JavaScript,PHP,MySQL",
