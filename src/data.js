@@ -1,4 +1,4 @@
-const data = [
+export const data = [
   {
     id: 1,
     name: "College Map",
@@ -68,7 +68,7 @@ export const educationData = [
 
 export const icons = {
   frontend: [
-    "../src/assets/images/icons/html.png",
+    "/src/assets/images/icons/html.png",
     "/src/assets/images/icons/css.png",
     "/src/assets/images/icons/javascript.png",
     "/src/assets/images/icons/react.png",
@@ -93,4 +93,4 @@ export const icons = {
   ],
 };
 
-export default data
+

@@ -1,7 +1,8 @@
 import React from "react";
-import data from "../../data";
+import { data } from "../../data";
 import "./project.css";
 import {FaGithub,FaCircle} from 'react-icons/fa'
+
 
 
 const Project = () => {

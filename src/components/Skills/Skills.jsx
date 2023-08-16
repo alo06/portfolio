@@ -1,7 +1,33 @@
 import React from "react";
 import SkillsIcon from "./skillsIcon"; 
-import { icons } from "../../data";
 import "./skills.css";
+
+export const icons = {
+  frontend: [
+    "/src/assets/images/icons/html.png",
+    "/src/assets/images/icons/css.png",
+    "/src/assets/images/icons/javascript.png",
+    "/src/assets/images/icons/react.png",
+  ],
+  backend: [
+    "/src/assets/images/icons/nodejs.png",
+    "/src/assets/images/icons/express.png",
+    "/src/assets/images/icons/mongo.png",
+    "/src/assets/images/icons/mysql.png",
+  ],
+  programmingLanguages: [
+    "/src/assets/images/icons/c++.png",
+    "/src/assets/images/icons/c.png",
+    "/src/assets/images/icons/java.png",
+    "/src/assets/images/icons/python.png",
+  ],
+  others: [
+    "/src/assets/images/icons/html.png",
+    "/src/assets/images/icons/css.png",
+    "/src/assets/images/icons/javascript.png",
+    "/src/assets/images/icons/react.png",
+  ],
+};
 
 const Skills = () => {
   return (
