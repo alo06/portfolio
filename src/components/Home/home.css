@@ -3,7 +3,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    scroll-snap-align: start;
 }
 .home-first{
     padding: 1.5rem;
@@ -44,4 +43,25 @@ button{
 
 .home h2{
     font-size: 1.5rem;
+}
+.socials{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.socials-icons{
+    margin: 1rem;
+    border-radius: 5px;
+}
+.linkedin:hover{
+    background-color:#0A66C2;
+}
+.github:hover{
+    background-color:#000000;
+}
+.gfg:hover{
+    background-color:#2F8D46;
+}
+.leetcode:hover{
+    background-color:#FFA31B;
 }

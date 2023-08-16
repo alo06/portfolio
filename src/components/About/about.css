@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    scroll-snap-align: start;
 }
 .about h1{
     font-family: headings;

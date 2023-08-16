@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import pfp from '/src/assets/images/pfp.jpg';
+import { BsLinkedin, BsGithub } from "react-icons/bs";
+import { SiGeeksforgeeks, SiLeetcode } from "react-icons/si";
 import './home.css'
 
 const Home = () => {
@@ -65,6 +67,20 @@ const Home = () => {
       {/* <div className="home-second">
         <img src={pfp}></img>
       </div> */}
+      <div className="socials">
+        <a href="https://www.linkedin.com/in/jeevottam-bhat-137a87246/">
+          <BsLinkedin size={40} className="socials-icons linkedin" />
+        </a>
+        <a href="https://github.com/alo06">
+          <BsGithub size={40} className="socials-icons github" />
+        </a>
+        <a href="https://auth.geeksforgeeks.org/user/bhatjeevu06">
+          <SiGeeksforgeeks size={40} className="socials-icons gfg" />
+        </a>
+        <a href="https://leetcode.com/jeevo06">
+          <SiLeetcode size={40} className="socials-icons leetcode" />
+        </a>
+      </div>
     </div>
   );
 }

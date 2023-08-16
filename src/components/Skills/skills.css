@@ -3,7 +3,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  scroll-snap-align: start;
   flex-direction: column;
   background-color: #131212;
   color: whitesmoke;
