@@ -5,7 +5,7 @@ export const data = [
   {
     id: 1,
     name: "College Map",
-    image: alo,
+    image: "../src/assets/images/alo.JPG",
     details:
       "Experience seamless navigation through NMAMIT Campus using the College Map- Classroom Finder project.",
     tech: "HTML,CSS,JavaScript,PHP,MySQL",
@@ -71,7 +71,7 @@ export const educationData = [
 
 export const icons = {
   frontend: [
-    "/src/assets/images/icons/html.png",
+    html,
     "/src/assets/images/icons/css.png",
     "/src/assets/images/icons/javascript.png",
     "/src/assets/images/icons/react.png",
