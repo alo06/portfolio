@@ -1,8 +1,10 @@
+import alo from '../src/assets/images/alo.jpg'
+
 export const data = [
   {
     id: 1,
     name: "College Map",
-    image: "../src/assets/images/alo.JPG",
+    image: alo,
     details:
       "Experience seamless navigation through NMAMIT Campus using the College Map- Classroom Finder project.",
     tech: "HTML,CSS,JavaScript,PHP,MySQL",
