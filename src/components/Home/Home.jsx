@@ -41,14 +41,22 @@ const Home = () => {
         setDelta(300);
       }
     };
+  const downloadResume = () =>{
+    const link = document.createElement("a");
+    link.href = "/src/assets/images/Jeevottam_Bhat-Resume.pdf"; 
+    link.target = "_blank"; 
+    link.download = "Jeevottam_Bhat-Resume.pdf"; 
+    link.click();
+    console.log("Clikced")
+  }
   return (
     <div className="home scroll">
       <div className="home-first">
         <h1>Jeevottam Bhat</h1>
         <h2>{text}.</h2>
         <div className="buttons">
-          <a href="#">
-            <button href>Resume</button>
+          <a href="">
+            <button onClick={downloadResume}>Resume</button>
           </a>
           <a href="#about">
             <button>About</button>
