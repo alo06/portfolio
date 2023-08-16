@@ -1,4 +1,3 @@
-import alo from '../src/assets/images/alo.jpg'
 import html from '../src/assets/images/icons/html.png'
 
 export const data = [
