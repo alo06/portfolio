@@ -2,7 +2,7 @@ import React from "react";
 import SkillsIcon from "./skillsIcon"; 
 import "./skills.css";
 
-export const icons = {
+ const icons = {
   frontend: [
     "/src/assets/images/icons/html.png",
     "/src/assets/images/icons/css.png",
