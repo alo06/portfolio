@@ -1,10 +1,30 @@
 import html from '../src/assets/images/icons/html.png'
+import c from '../src/assets/images/icons/c.png'
+import cpp from '../src/assets/images/icons/c++.png'
+import express from '../src/assets/images/icons/express.png'
+import java from '../src/assets/images/icons/java.png'
+import css from '../src/assets/images/icons/css.png'
+import javascript from '../src/assets/images/icons/javascript.png'
+import react from '../src/assets/images/icons/react.png'
+import nodejs from '../src/assets/images/icons/nodejs.png'
+import mongo from '../src/assets/images/icons/mongo.png'
+import mysql from '../src/assets/images/icons/javascript.png'
+import python from '../src/assets/images/icons/javascript.png'
+import oops from '../src/assets/images/icons/oops.png'
+import dsa from '../src/assets/images/icons/dsa.png'
+import alo from '../src/assets/images/alo.jpg'
+import EzFit from '../src/assets/images/EZfit.jpg'
+import jobify from '../src/assets/images/jobify.jpg'
+import imageEditor from '../src/assets/images/image-editor.jpg'
+import portfolio from '../src/assets/images/portfolio.jpg'
+
+
 
 export const data = [
   {
     id: 1,
     name: "College Map",
-    image: "../src/assets/images/alo.JPG",
+    image:alo,
     details:
       "Experience seamless navigation through NMAMIT Campus using the College Map- Classroom Finder project.",
     tech: "HTML,CSS,JavaScript,PHP,MySQL",
@@ -14,7 +34,7 @@ export const data = [
   {
     id: 2,
     name: "Jobify",
-    image: "../src/assets/images/jobify.JPG",
+    image: jobify,
     details:
       "Unlock a world of job opportunities with Jobify, the job portal designed with MongoDB, ExpressJS, ReactJS, and NodeJS. Employers enjoy effortless job creation, editing, and deletion, while job seekers find their perfect match. ",
     tech: "MongoDB,ExpressJs,ReactJs,NodeJs",
@@ -24,7 +44,7 @@ export const data = [
   {
     id: 3,
     name: "Ez Fit",
-    image: "../src/assets/images/EZfit.JPG",
+    image: EzFit,
     details:
       "Elevate your fitness journey with EzFit, the ultimate Android app powered by Java, XML, and SQLite. Stay fit on the go as it tracks your calories, offers meal suggestions, exercise routines, and features a handy step counter.",
     tech: "Android,Java,XML,SQLite",
@@ -34,7 +54,7 @@ export const data = [
   {
     id: 4,
     name: "Image Editor",
-    image: "../src/assets/images/image-editor.JPG",
+    image: imageEditor,
     details:
       "Unleash your creativity with the Image Editor Website, a powerful online tool crafted using HTML, CSS, and JavaScript. Enhance your images with features like brightness, grayscale, and saturation adjustments. Plus, easily resize your images to fit your vision perfectly.",
     tech: "HTML,CSS,JavaScript",
@@ -44,7 +64,7 @@ export const data = [
   {
     id: 5,
     name: "Portfolio",
-    image: "../src/assets/images/portfolio.JPG",
+    image: portfolio,
     details:
       "Welcome to my portfolio website, built using ReactJS and CSS. Here, I showcase a collection of my projects and skills. Explore my journey and expertise in the world of web development.",
     tech: "ReactJS,CSS",
@@ -71,27 +91,25 @@ export const educationData = [
 export const icons = {
   frontend: [
     html,
-    "/src/assets/images/icons/css.png",
-    "/src/assets/images/icons/javascript.png",
-    "/src/assets/images/icons/react.png",
+    css,
+    javascript,
+    react,
   ],
   backend: [
-    "/src/assets/images/icons/nodejs.png",
-    "/src/assets/images/icons/express.png",
-    "/src/assets/images/icons/mongo.png",
-    "/src/assets/images/icons/mysql.png",
+    nodejs,
+    express,
+    mongo,
+    mysql,
   ],
   programmingLanguages: [
-    "/src/assets/images/icons/c++.png",
-    "/src/assets/images/icons/c.png",
-    "/src/assets/images/icons/java.png",
-    "/src/assets/images/icons/python.png",
+    cpp,
+    c,
+    java,
+    python,
   ],
   others: [
-    "/src/assets/images/icons/html.png",
-    "/src/assets/images/icons/css.png",
-    "/src/assets/images/icons/javascript.png",
-    "/src/assets/images/icons/react.png",
+    oops,
+    dsa,
   ],
 };
 
